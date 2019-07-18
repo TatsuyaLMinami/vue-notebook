@@ -1,0 +1,4 @@
+1、出于防范XSS跨站脚本攻击，文本插值不会渲染html，用v-html可以渲染任意有效的HTML字符串
+2、localStorage API只接收字符串，如果想存入数组，可以用JSON。stringify()方法，转化为JSON字符串
+3、watch:默认只监听目标对象的直接变化，将deep设置为true，就会递归地侦听对象和属性的变化了
+4、
